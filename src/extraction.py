@@ -46,7 +46,7 @@ n_jobs = -1
 n_components = 9
 
 # Define the path name for the data
-data_path = '/home/lemaitre/Downloads/TUDarmstadt/PNGImages'
+data_path = '../data/PNGImages'
 
 png_files = [os.path.join(root, name)
              for root, dirs, files in os.walk(data_path)
